@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafična kartica</title>
+    <!-- Povezava do CSS datoteke -->
+    <link rel="stylesheet" href="../css/stil.css">
+</head>
+<body>
+    <!-- Glava strani z logotipom in naslovom -->
+    <header>
+        <a href="../index.html">
+            <img src="../slike/StrojnaOpremarac.svg" width="80">
+        </a>
+        <h1>Grafična kartica</h1>
+    </header>
+
+    <!-- Navigacijski meni s podmeniji -->
+    <nav>
+        <ul class="meni">
+            <li class="meni_element"><a href="../index.html">Domov</a></li>
+            <li class="meni_element"><a href="../zgodovina/Zgodovina.html">Zgodovina</a></li>
+
+            <!-- Podmeni: Zgradba računalnika -->
+            <li class="meni_element">
+                <a href="#">Zgradba računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../zgradba računalnika/Maticna_plosca.html">Matična plošča</a></li>
+                    <li><a href="../zgradba računalnika/procesor.html">Procesor</a></li>
+                    <li><a href="../zgradba računalnika/pomnilnik.html">Pomnilnik</a></li>
+                    <li><a href="../zgradba računalnika/graficna_kartica.html">Grafična kartica</a></li>
+                    <li><a href="../zgradba računalnika/napajalnik.html">Napajalnik</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Delovanje računalnika -->
+            <li class="meni_element">
+                <a href="#">Delovanje računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../delovanje računalnika/izvajanje_ukazov.html">Izvajanje ukazov</a></li>
+                    <li><a href="../delovanje računalnika/pretok_podatkov.html">Pretok podatkov</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Periferne naprave -->
+            <li class="meni_element">
+                <a href="#">Periferne naprave</a>
+                <ul class="podmeni">
+                    <li><a href="../periferne naprave/vhodne_enote.html">Vhodne enote</a></li>
+                    <li><a href="../periferne naprave/izhodne_enote.html">Izhodne enote</a></li>
+                </ul>
+            </li>
+
+            <!-- Povezava: Povezava z izobraževanjem -->
+            <li class="meni_element"><a href="../povezava_z_izobrazevanjem/povezava_z_izobrazevanjem.html">Povezovanje z izobraževanjem</a></li>
+        </ul>
+    </nav>
+
+    <!-- Glavna vsebina strani -->
+    <main>
+        <section>
+            <h2>Uvod</h2>
+            <p>
+                Grafična kartica je ključna komponenta, ki skrbi za prikaz slike na zaslonu. V današnjih računalnikih je odgovorna za
+                izris 2D in 3D grafike, videoposnetkov in igranje iger. Zelo pomembna je tudi pri delu z videoprodukcijo, 3D modeliranjem
+                in umetno inteligenco.
+            </p>
+            <figure>
+                <img src="../slike/graficna_modern.jpg" width="300" alt="Moderna grafična kartica z več ventilatorji">
+                <figcaption>Moderna grafična kartica z več ventilatorji</figcaption>
+                <small>Avtor: Moritz129 - vir: Wikimedia Commons, licenca: CC BY-SA 4.0</small>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Zgodovina in razvoj</h2>
+            <p>
+                Prve grafične kartice so bile enostavne in so podpirale le besedilni izpis. S prihodom VGA standarda konec 80. let so se začele
+                sposobnosti hitro širiti. Danes imajo grafične kartice svoje procesorje (GPU), lastni pomnilnik in hladilne sisteme.
+            </p>
+            <figure>
+                <img src="../slike/VGA_graficna.jpg" width="500" alt="Primer stare VGA grafične kartice">
+                <figcaption>Primer stare VGA grafične kartice</figcaption>
+                <small>Avtor: Steve Jurvetson - vir: Wikimedia Commons, licenca: CC BY 2.0</small>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Kako deluje?</h2>
+            <p>
+                Grafična kartica deluje kot mini računalnik znotraj računalnika. Podatke iz procesorja pretvori v sliko, ki jo vidimo na
+                zaslonu. Pri tem uporablja grafični procesor (GPU), ki je posebej optimiziran za matematične izračune, ki so potrebni za izris slike.
+            </p>
+        </section>
+
+        <section>
+            <h2>Zanimivosti</h2>
+            <ul>
+                <li>Prva "gaming" grafična kartica je bila 3dfx Voodoo (1996).</li>
+                <li>Danes imajo grafične kartice lahko več kot 10.000 jeder (CUDA v NVIDIA karticah).</li>
+                <li>Uporabljajo se tudi za rudarjenje kriptovalut in umetno inteligenco.</li>
+            </ul>
+        </section>
+
+        <!-- Sekcija z viri -->
+        <section>
+            <h2>Viri</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Graphics_card" target="_blank">Wikipedia: Grafična kartica</a></li>
+                <li><a href="https://www.howtogeek.com/702766/what-is-a-gpu-graphics-processing-units-explained/" target="_blank">How-To Geek: Kaj je GPU?</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Noga strani -->
+    <footer>
+        <a href="https://creativecommons.org">Strojna oprema računalnika</a> © 2025 by <a href="https://creativecommons.org">Anej Požun Kožel</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> 
+    </footer>
+</body>
+</html>

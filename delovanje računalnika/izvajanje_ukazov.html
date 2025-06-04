@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Izvajanje ukazov</title>
+    <!-- Povezava do CSS datoteke -->
+    <link rel="stylesheet" href="../css/stil.css">
+</head>
+<body>    
+    <!-- Glava strani z logotipom in naslovom -->
+    <header>
+        <a href="../index.html">
+            <img src="../slike/StrojnaOpremarac.svg" width="80">
+        </a>
+        <h1>Izvajanje ukazov</h1>
+    </header>
+    
+
+    <!-- Navigacijski meni z podmeniji -->
+    <nav>
+        <ul class="meni">
+            <li class="meni_element"><a href="../index.html">Domov</a></li>
+            <li class="meni_element"><a href="../zgodovina/Zgodovina.html">Zgodovina</a></li>
+
+            <!-- Podmeni: Zgradba računalnika -->
+            <li class="meni_element">
+                <a href="#">Zgradba računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../zgradba računalnika/Maticna_plosca.html">Matična plošča</a></li>
+                    <li><a href="../zgradba računalnika/procesor.html">Procesor</a></li>
+                    <li><a href="../zgradba računalnika/pomnilnik.html">Pomnilnik</a></li>
+                    <li><a href="../zgradba računalnika/graficna_kartica.html">Grafična kartica</a></li>
+                    <li><a href="../zgradba računalnika/napajalnik.html">Napajalnik</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Delovanje računalnika -->
+            <li class="meni_element">
+                <a href="#">Delovanje računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../delovanje računalnika/izvajanje_ukazov.html">Izvajanje ukazov</a></li>
+                    <li><a href="../delovanje računalnika/pretok_podatkov.html">Pretok podatkov</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Periferne naprave -->
+            <li class="meni_element">
+                <a href="#">Periferne naprave</a>
+                <ul class="podmeni">
+                    <li><a href="../periferne naprave/vhodne_enote.html">Vhodne enote</a></li>
+                    <li><a href="../periferne naprave/izhodne_enote.html">Izhodne enote</a></li>
+                </ul>
+            </li>
+
+            <!-- Povezava: Povezava z izobraževanjem -->
+            <li class="meni_element"><a href="../povezava_z_izobrazevanjem/povezava_z_izobrazevanjem.html">Povezovanje z izobraževanjem</a></li>
+        </ul>
+    </nav>
+
+    <!-- Glavna vsebina strani -->
+    <main>
+        <section>
+            <h2>Razumevanje izvajanja ukazov</h2>
+            <p>
+                Izvajanje ukazov je temeljni proces v računalništvu, kjer računalnik sprejme ukaze v obliki programske kode in jih izvede. To vključuje naloge, kot so obdelava podatkov, izvajanje algoritmov in interakcija z uporabnikom.
+            </p>
+        </section>
+
+        <section>
+            <h2>Kako računalnik izvaja ukaze?</h2>
+            <p>
+                Računalnik izvaja ukaze v več korakih, znanih kot cikel pridobi-dekodiraj-izvedi (angl. fetch-decode-execute cycle). Najprej se ukaz pridobi iz pomnilnika, nato se dekodira, da se ugotovi, katera operacija je potrebna, in na koncu se izvede. Ta proces omogoča računalniku, da sistematično obdeluje ukaze in izvaja naloge.
+            </p>
+        </section>
+
+        <section>
+            <h2>Vrste ukazov</h2>
+            <ul>
+                <li><strong>Aritmetični in logični ukazi:</strong> Vključujejo osnovne operacije, kot so seštevanje, odštevanje, množenje, deljenje ter logične operacije, kot so AND, OR in NOT.</li>
+                <li><strong>Ukazi za prenos podatkov:</strong> Premikajo podatke med registri, pomnilnikom in vhodno/izhodnimi napravami brez spreminjanja podatkov.</li>
+                <li><strong>Kontrolni ukazi:</strong> Usmerjajo tok izvajanja programa, vključno s skoki, zankami in pogojnimi stavki, ki omogočajo kompleksno logiko v programih.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Izvajanje ukazov na primerih</h2>
+            <p>
+                Ko program vsebuje ukaz za seštevanje dveh števil, računalnik najprej pridobi ta ukaz iz pomnilnika, ga dekodira, da ugotovi, da gre za operacijo seštevanja, nato pridobi vrednosti operandov, izvede seštevanje in rezultat shrani nazaj v pomnilnik ali register.
+            </p>
+            <p>
+                Primer ukaza: rezultat = a + b, kjer sta a in b spremenljivki, ki vsebujeta številke, in rezultat shrani rezultat.
+            </p>
+        </section>
+        
+        <!-- Sekcija z viri -->
+        <section>
+            <h2>Viri</h2>
+            <ul>
+                <li><a href="https://www.programmathically.com/how-does-a-cpu-execute-instructions-understanding-instruction-cycles/" target="_blank">How does a CPU Execute Instructions: Understanding Instruction Cycles</a></li>
+                <li><a href="https://www.geeksforgeeks.org/types-of-machine-instructions/" target="_blank">Types of Machine Instructions - GeeksforGeeks</a></li>
+                <li><a href="https://www.geeksforgeeks.org/data-manipulation-instructions-in-computer-organization/" target="_blank">Data Manipulation Instructions in Computer Organization</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Instruction_cycle" target="_blank">Instruction cycle - Wikipedia</a></li>
+                <li><a href="https://www.codecademy.com/article/the-instruction-cycle" target="_blank">Understanding The Instruction Cycle in a CPU - Codecademy</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Noga strani -->
+    <footer>
+        <a href="https://creativecommons.org">Strojna oprema računalnika</a> © 2025 by <a href="https://creativecommons.org">Anej Požun Kožel</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> 
+    </footer>
+</body>
+</html>

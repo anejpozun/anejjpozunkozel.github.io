@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomnilnik</title>
+    <!-- Povezava do CSS datoteke -->
+    <link rel="stylesheet" href="../css/stil.css">
+</head>
+<body>
+    <!-- Glava strani z logotipom in naslovom -->
+    <header>
+        <a href="../index.html">
+            <img src="../slike/StrojnaOpremarac.svg" width="80">
+        </a>
+        <h1>Pomnilnik</h1>
+    </header>
+
+    <!-- Navigacijski meni z podmeniji -->
+    <nav>
+        <ul class="meni">
+            <li class="meni_element"><a href="../index.html">Domov</a></li>
+            <li class="meni_element"><a href="../zgodovina/Zgodovina.html">Zgodovina</a></li>
+
+            <!-- Podmeni: Zgradba računalnika -->
+            <li class="meni_element">
+                <a href="#">Zgradba računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../zgradba računalnika/Maticna_plosca.html">Matična plošča</a></li>
+                    <li><a href="../zgradba računalnika/procesor.html">Procesor</a></li>
+                    <li><a href="../zgradba računalnika/pomnilnik.html">Pomnilnik</a></li>
+                    <li><a href="../zgradba računalnika/graficna_kartica.html">Grafična kartica</a></li>
+                    <li><a href="../zgradba računalnika/napajalnik.html">Napajalnik</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Delovanje računalnika -->
+            <li class="meni_element">
+                <a href="#">Delovanje računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../delovanje računalnika/izvajanje_ukazov.html">Izvajanje ukazov</a></li>
+                    <li><a href="../delovanje računalnika/pretok_podatkov.html">Pretok podatkov</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Periferne naprave -->
+            <li class="meni_element">
+                <a href="#">Periferne naprave</a>
+                <ul class="podmeni">
+                    <li><a href="../periferne naprave/vhodne_enote.html">Vhodne enote</a></li>
+                    <li><a href="../periferne naprave/izhodne_enote.html">Izhodne enote</a></li>
+                </ul>
+            </li>
+
+            <!-- Povezava: Povezava z izobraževanjem -->
+            <li class="meni_element"><a href="../povezava_z_izobrazevanjem/povezava_z_izobrazevanjem.html">Povezovanje z izobraževanjem</a></li>
+        </ul>
+    </nav>
+
+    <!-- Glavna vsebina strani -->
+    <main>
+        <section>
+            <h2>Uvod</h2>
+            <p>
+                Pomnilnik v računalniku (RAM - Random Access Memory) je ključna komponenta, ki omogoča začasno shranjevanje podatkov,
+                ki jih procesor trenutno uporablja. Pomnilnik je hiter, a začasen - ob izklopu računalnika se podatki izbrišejo.
+            </p>
+
+            <!-- Slika modula RAM s pripisom in virom -->
+            <figure>
+                <img src="../slike/ram_modern.jpg" width="300" alt="Modul DDR4 RAM">
+                <figcaption>Modul DDR4 RAM</figcaption>
+                <small>Avtor: Armin Kübelbeck - vir: Wikimedia Commons, licenca: CC BY-SA 3.0</small>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Vrste pomnilnika</h2>
+            <p>Obstaja več vrst pomnilnika:</p>
+            <ul>
+                <li><strong>RAM:</strong> najpogosteje uporabljen, hiter in začasen.</li>
+                <li><strong>ROM:</strong> trajen pomnilnik, v katerem je zapisan BIOS ali UEFI.</li>
+                <li><strong>Cache:</strong> zelo hiter pomnilnik blizu procesorja za pogosto uporabljene podatke.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Zgodovina</h2>
+            <p>
+                Zgodnje računalnike so poganjali pomnilniki tipa DRAM z zelo nizkimi kapacitetami (npr. 256 KB). S časom so se razvile tehnologije
+                DDR, DDR2, DDR3 in danes DDR4 ter DDR5. Vsaka generacija je hitrejša in energetsko učinkovitejša.
+            </p>
+        </section>
+
+        <section>
+            <h2>Zanimivosti</h2>
+            <ul>
+                <li>DDR pomeni "Double Data Rate" - podatki se prenašajo dvakrat na cikel.</li>
+                <li>RAM je danes pogosto opremljen z RGB osvetlitvijo in hladilniki za estetiko in hlajenje.</li>
+                <li>Pomnilnik strežniških računalnikov ima pogosto funkcijo ECC - zaznavanje in odpravljanje napak.</li>
+            </ul>
+        </section>
+
+        <!-- Sekcija z viri -->
+        <section>
+            <h2>Viri</h2>
+            <ul>
+                <li><a href="https://www.kingston.com/en/memory" target="_blank" rel="noopener noreferrer">Kingston Technology - Memory Types and Explanation</a></li>
+                <li><a href="https://computer.howstuffworks.com/ram.htm" target="_blank" rel="noopener noreferrer">HowStuffWorks - How RAM works</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Noga strani -->
+    <footer>
+        <a href="https://creativecommons.org">Strojna oprema računalnika</a> © 2025 by <a href="https://creativecommons.org">Anej Požun Kožel</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> 
+    </footer>
+</body>
+</html>

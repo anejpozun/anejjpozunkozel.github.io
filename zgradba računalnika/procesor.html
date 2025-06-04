@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Procesor</title>
+    <!-- Povezava do CSS datoteke -->
+    <link rel="stylesheet" href="../css/stil.css">
+</head>
+<body>
+    <!-- Glava strani z logotipom in naslovom -->
+    <header>
+        <a href="../index.html">
+            <img src="../slike/StrojnaOpremarac.svg" width="80">
+        </a>
+        <h1>Procesor</h1>
+    </header>
+    
+    <!-- Navigacijski meni z podmeniji -->
+    <nav>
+        <ul class="meni">
+            <li class="meni_element"><a href="../index.html">Domov</a></li>
+            <li class="meni_element"><a href="../zgodovina/Zgodovina.html">Zgodovina</a></li>
+
+            <!-- Podmeni: Zgradba računalnika -->
+            <li class="meni_element">
+                <a href="#">Zgradba računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../zgradba računalnika/Maticna_plosca.html">Matična plošča</a></li>
+                    <li><a href="../zgradba računalnika/procesor.html">Procesor</a></li>
+                    <li><a href="../zgradba računalnika/pomnilnik.html">Pomnilnik</a></li>
+                    <li><a href="../zgradba računalnika/graficna_kartica.html">Grafična kartica</a></li>
+                    <li><a href="../zgradba računalnika/napajalnik.html">Napajalnik</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Delovanje računalnika -->
+            <li class="meni_element">
+                <a href="#">Delovanje računalnika</a>
+                <ul class="podmeni">
+                    <li><a href="../delovanje računalnika/izvajanje_ukazov.html">Izvajanje ukazov</a></li>
+                    <li><a href="../delovanje računalnika/pretok_podatkov.html">Pretok podatkov</a></li>
+                </ul>
+            </li>
+
+            <!-- Podmeni: Periferne naprave -->
+            <li class="meni_element">
+                <a href="#">Periferne naprave</a>
+                <ul class="podmeni">
+                    <li><a href="../periferne naprave/vhodne_enote.html">Vhodne enote</a></li>
+                    <li><a href="../periferne naprave/izhodne_enote.html">Izhodne enote</a></li>
+                </ul>
+            </li>
+
+            <!-- Povezava: Povezava z izobraževanjem -->
+            <li class="meni_element"><a href="../povezava_z_izobrazevanjem/povezava_z_izobrazevanjem.html">Povezovanje z izobraževanjem</a></li>
+        </ul>
+    </nav>
+
+    <!-- Glavna vsebina strani -->
+    <main>
+        <section>
+            <h2>Uvod</h2>
+            <p>
+                Procesor (CPU - Central Processing Unit) je osrednja komponenta računalnika, ki nadzoruje in usmerja vse osnovne operacije. 
+                Pogosto ga imenujemo kar "možgani računalnika", saj upravlja z navodili, ki jih prejemajo iz pomnilnika in programov.
+            </p>
+            <!-- Slika sodobnega procesorja z opisom in virom -->
+            <figure>
+                <img src="../slike/procesor_modern.jpg" width="300" alt="Sodobni procesor z vidnimi kontakti">
+                <figcaption>
+                    Sodobni procesor z vidnimi kontakti<br>
+                    <small>Avtor: Stefan Kühn - vir: Wikimedia Commons, licenca: CC BY-SA 3.0</small>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Zgradba</h2>
+            <p>Procesor sestavljajo:</p>
+            <ul>
+                <li><strong>Jedra (cores):</strong> posamezne enote znotraj procesorja, ki lahko izvajajo ukaze neodvisno.</li>
+                <li><strong>Predpomnilnik (cache):</strong> zelo hiter pomnilnik znotraj procesorja za hitrejši dostop do podatkov.</li>
+                <li><strong>Niti (threads):</strong> logične enote znotraj jedra, ki omogočajo večopravilnost.</li>
+                <li><strong>Kontakti:</strong> omogočajo povezavo z matično ploščo (npr. LGA, PGA vtičnice).</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Zgodovina</h2>
+            <p>
+                Prvi komercialni procesor je bil Intel 4004, izdan leta 1971, ki je imel le eno jedro in deloval pri 740 kHz. 
+                Danes imajo sodobni procesorji več kot 16 jeder in delujejo pri več gigahercih.
+            </p>
+            <!-- Slika Intel 4004 procesorja z opisom in virom -->
+            <figure>
+                <img src="../slike/intel4004.jpg" width="300" alt="Intel 4004 - prvi komercialni procesor">
+                <figcaption>
+                    Intel 4004 - prvi komercialni procesor<br>
+                    <small>Avtor: Thomas Nguyen - vir: Wikimedia Commons, licenca: CC BY-SA 3.0</small>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Zanimivosti</h2>
+            <ul>
+                <li>Procesorji se izdelujejo iz silicija, v posebnih tovarnah, imenovanih "fab".</li>
+                <li>AMD in Intel sta dve največji podjetji za izdelavo procesorjev za osebne računalnike.</li>
+                <li>Procesorji v pametnih telefonih temeljijo na arhitekturi ARM, ne x86.</li>
+            </ul>
+        </section>
+
+        <!-- Sekcija z viri -->
+        <section>
+            <h2>Viri</h2>
+            <ul>
+                <li><a href="https://www.howtogeek.com/694869/what-is-a-cpu-and-what-does-it-do/" target="_blank" rel="noopener noreferrer">How-To Geek: What Is a CPU?</a></li>
+                <li><a href="https://www.intel.com/content/www/us/en/history/museum-story-of-intel-4004.html" target="_blank" rel="noopener noreferrer">Intel: The Story of the Intel 4004</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Noga strani -->
+    <footer>
+        <a href="https://creativecommons.org">Strojna oprema računalnika</a> © 2025 by <a href="https://creativecommons.org">Anej Požun Kožel</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"> 
+    </footer>
+</body>
+</html>

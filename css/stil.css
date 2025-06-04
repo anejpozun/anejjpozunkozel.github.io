@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;      
+    background-color: #C0C0C0;          
+    margin: 0;                         
+}
+
+header {
+    background-color: #FFA500;      
+    color: #003366;              
+    display: flex;                       /* Elementi v glavi so razporejeni v vrstico */
+    gap: 20px;                          
+    align-items: center;                 /* Vertikalna poravnava elementov na sredino */
+}
+
+header h1 {
+    font-size: 28px;                     
+}
+
+nav {
+    background-color: #ADD8E7;       
+}
+
+.meni {
+    list-style: none;                    /* Odstrani pike*/
+    margin: 0;                   
+    padding: 0;                          
+    display: flex;                      
+}
+
+.meni_element {
+    position: relative;                  /* Za pozicioniranje podmenijev (absolutno glede na ta element) */
+}
+
+.meni_element a {
+    display: block;                      /* Celotno območje povezave je klikabilno */
+    padding: 12px 16px;             
+    color: #003366;                   
+    text-decoration: none;               /* Odstrani podčrtavanje povezav */
+    font-weight: bold;                   /* Krepka pisava za povezave */
+}
+
+.meni_element a:hover {
+    background-color: #FFA500;          
+    color: #003366;                      
+}
+
+.podmeni {
+    display: none;                       /* Podmeni je skrit, dokler ni aktiviran */
+    position: absolute;                  /* Absolutno pozicioniranje glede na .meni_element */
+    top: 100%;                           /* Podmeni se prikaže tik pod glavnim elementom */
+    left: 0;                          
+    background-color: #ADD8E7;        
+    list-style: none;                   
+    padding: 0;                        
+    margin: 0;                         
+}
+
+.meni_element:hover .podmeni {
+    display: block;                      /* Ob premiku miške na glavni element se podmeni prikaže */
+}
+
+.podmeni li a {
+    padding: 10px 14px;                
+    color: #003366;                  
+}
+
+.podmeni li a:hover {
+    background-color: #FFA500;         
+    color: #003366;                      
+}
+
+main {
+    padding: 20px;                      
+    background-color: white;           
+}
+
+main h2 {
+    color: #003366;                    
+}
+
+main p {
+    line-height: 1.6;                    /* Višina vrstice za boljšo berljivost besedila */
+}
+
+footer {
+    text-align: center;             
+    background-color: #FFA500;     
+    color: #003366;                    
+    padding: 10px;                   
+}
